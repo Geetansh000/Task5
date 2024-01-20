@@ -362,7 +362,11 @@ font-size: 10px;
      .ab3 p{
           width: 100%;
      }
-.foot1{
-     font-si;
+    .foot1 h3{
+          font-size: 15px;
+     }
+.foot1 p{
+     font-size: 8px;
+     text-wrap:wrap;
 }
 }
