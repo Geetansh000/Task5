@@ -1,0 +1,368 @@
+:root {
+     --custom-text-color: rgba(47, 45, 46, 1);
+   --or:rgba(255, 171, 110, 255);
+}
+
+
+
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+
+body{
+     margin: 0px;
+     
+     overflow-x: hidden;
+}
+.head {
+     background-color: rgba(47, 45, 46, 255);
+     margin: 0px;
+     padding: 20px 35px;
+     overflow: hidden;
+
+}
+
+
+.head a {
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+     padding: 20px;
+     margin: 0px;
+     font-weight: bolder;
+}
+
+
+.left {
+     float: left;
+     margin: 0;
+}
+
+.active,
+.h2 a:hover,
+.ab1 button:hover  {
+     background-color: rgba(62, 60, 62, 255) !important;
+     color: rgba(255, 171, 110, 255) !important;
+}
+
+.right {
+     float: right;
+}
+
+.cld {
+     color: rgba(255, 171, 110, 255) !important;
+}
+
+.ab1 h1 {
+     font-weight: 1200;
+     font-size: 60px;
+}
+
+.ab1 p {
+     font-size: 20px;
+     line-height: 1.2;
+     margin: 20px 20px;
+}
+
+.ab1 button {
+     background: rgba(47, 45, 46, 255);
+     padding: 10px;
+     color: white;
+     font-size: 20px;
+     border: none;
+     font-weight: 800;
+}
+
+.ab1 {
+     color: white;
+
+     padding: 50px 20px;
+     height: 60vh;
+     text-align: center;
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/pexels-pixabay-258154.jpg);
+     background-position: center;
+     background-size: 100vw 100%;
+     /* background-repeat: no-repeat; */
+     /* background-size: contain; */
+}
+
+.ab2 {
+     background-color: rgba(47, 45, 46, 255);
+     overflow: hidden;
+     height: 40vh;
+     margin: auto;
+     text-align: center;
+
+}
+
+.his1 {
+     float: left;
+     width: 50%;
+     /* overflow: hidden; */
+     height: 100%;
+
+}
+
+.his1 img {
+     /* position: relative; */
+     width: 100%;
+     height: 100%;
+     /* display: block; */
+}
+
+.his2 {
+     width: 50%;
+     /* border: 2px solid white; */
+     float: left;
+     box-sizing: border-box;
+     height: 100%;
+     font-size: 20px;
+     color: white;
+     text-align: center;
+     background-color: rgba(47, 45, 46, 255);
+     padding: 2.7% 4%;
+     /* border: none; */
+}
+.his2 h3{
+      margin: auto auto;
+     margin-bottom: 20px;
+    
+     margin-top: 0px;
+}
+.his2 p {
+     font-size: 17px;
+     margin: 30px;
+     text-align: center;
+     width: 100%;
+     margin: auto;
+     line-height: 110%;
+}
+
+.his2 button {
+     padding: 10px;
+     margin: 20px auto;
+     border: none;
+
+}
+
+.ab3 {
+     width: 33.33%;
+     padding: 25px 10px;
+     text-align: center;
+     background: white;
+     color: rgba(47, 45, 46, 255);
+     font-size: 20px;
+}
+
+.ab3 p {
+     font-weight: 300;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     width: 100%;
+}
+
+.bot1 {
+     width: 100%;
+     height: auto;
+     overflow: hidden;
+     /* margin-bottom: 20px; */
+}
+
+
+
+
+
+.footer,
+.foot2 {
+     background-color: rgba(47, 45, 46, 255);
+     color: white ;
+     /* width: 100vw; */
+     padding: 15px;
+     text-align: center;
+}
+
+.form {
+     margin: auto 5%;
+     text-align: left;
+}
+
+.forminput {
+     height: 30px;
+     background-color: white;
+     width: 80%;
+     /* border: none; */
+     margin: 10px 0px;
+}
+
+.formtext {
+     width: 80%;
+     height: 150px;
+     margin: 10px 0px;
+     border: 2px solid black;
+}
+
+
+input[type=submit] {
+     padding: 10px 20px;
+     background: rgba(47, 45, 46, 255);
+     color: white !important;
+     margin: 20px;
+}
+
+.cont1 {
+     margin: 1% 5%;
+}
+
+.foot2 {
+     width: 100%;
+     /* position: absolute; */
+     bottom: 0;
+     padding: 0;
+}
+
+.foot1 {
+     padding: 15px;
+}
+
+.fot {
+     display: inline-block;
+     text-align: center;
+     width: 33%;
+}
+
+.fot img {
+     filter: invert(100%)
+}
+
+.footer {
+     background-color: rgba(62, 60, 62, 255);
+}
+
+.button {
+     /* width: 70px !important; */
+     color: black !important;
+}
+
+
+.aboutab{
+     color: rgba(47, 45, 46, 255);
+     margin: 0vw 5vw;
+     overflow: hidden;
+     /* padding: 20px 0px; */
+     height: 35vh;
+     /* text-align: center; */
+     background: white;
+     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/pexels-pixabay-258154.jpg); */
+     background-position: center;
+     background-size: 100vw 100%;
+     /* background-repeat: no-repeat; */
+     /* background-size: contain; */
+}
+.aboutab h1{
+     margin: 20px auto ;
+}
+.aboutab img{
+     margin: 0 2vw;
+     
+     width: 25%;
+     height: 70%;
+     border-radius: 50%;
+}
+.rev{
+     min-height: 90px;
+     text-align:left ;
+     padding: 15px;
+     background-color: var(--or);
+     width: 80%;
+     margin:50px auto;
+     opacity: 0.7;
+}
+.rev p{
+     margin: 10px 0px;
+}
+.rev img{
+     height: 60px;
+     width: 60px;
+     margin: -1px 10px; 
+     border-radius: 50%;
+}
+
+.reviews{
+     padding-bottom: 50px;
+     text-align: center ;
+     /* height: 50%; */
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/pexels-pixabay-260922.jpg);
+}
+.reviews h3{
+     padding: 50px;
+     padding-bottom: 0%;
+     color: white;
+     font-size: 30px;
+     
+}
+
+
+
+
+@media (max-width:505px) {
+     .head{
+          padding: 5px 20px;
+     }
+     .head a{
+          font-size: 10px;
+          padding: 10px 5px;
+          font-weight: 500;
+     }
+     .ab1 h1 {
+          font-weight: 1200;
+          font-size: 40px;
+          margin-bottom: 30px;
+     }
+     .ab1 p {
+         
+          
+          margin-bottom: 30px;
+     }
+     
+     .his2 {
+          height: 40vh;
+          font-size: 10px;
+          color: white;
+          text-align: center;
+          background-color: rgba(47, 45, 46, 255);
+          padding: 2.5% 4%;
+          /* border: none; */
+     }
+     .his2 p {
+          font-size: 12px;
+          
+     }
+     
+
+}
+@media (max-height:600px){
+     .his2{
+          padding: 2% 4%;
+          line-height: 1;
+     }
+     .his2 p{
+font-size: 15px;
+     }
+     .his2 button{
+          margin: 10px;
+     }
+
+}
+@media (max-width:516px){
+     .ab3 {
+font-size: 10px;
+     }
+     .ab3 p{
+          width: 100%;
+     }
+.foot1{
+     font-si;
+}
+}
