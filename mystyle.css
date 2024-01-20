@@ -248,7 +248,7 @@ input[type=submit] {
 
 .aboutab{
      color: rgba(47, 45, 46, 255);
-     margin: 0vw 5vw;
+     padding: 0vw 5vw;
      overflow: hidden;
      /* padding: 20px 0px; */
      height: 35vh;
@@ -374,7 +374,10 @@ font-size: 10px;
      font-size: 8px;
      text-wrap:wrap;
 }
-
+.aboutab{
+     padding-left: 10px ;
+     height: 55vh;
+}
 .aboutab p{
      line-height: 1;
      font-size: 13px;
