@@ -81,7 +81,7 @@ body{
      padding: 50px 20px;
      height: 60vh;
      text-align: center;
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/pexels-pixabay-258154.jpg);
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pexels-pixabay-258154.jpg);
      background-position: center;
      background-size: 100vw 100%;
      /* background-repeat: no-repeat; */
@@ -293,7 +293,7 @@ input[type=submit] {
      padding-bottom: 50px;
      text-align: center ;
      /* height: 50%; */
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/pexels-pixabay-260922.jpg);
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pexels-pixabay-260922.jpg);
 }
 .reviews h3{
      padding: 50px;
